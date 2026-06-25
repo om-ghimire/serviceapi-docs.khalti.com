@@ -1,3 +1,8 @@
+**Version 9.6, Jun 9th 2026**
+
+  * Added documentation Ntc eSim. [NTC eSim](../eSim/ntcesim.md)
+
+
 **Version 9.5, Jun 9th 2026**
 
   * Added documentation for Worldcup NETTV API (recharge). [Worldcup NETTV API](../Worldcup/nettv/nettv-api.md)

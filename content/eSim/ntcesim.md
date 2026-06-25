@@ -50,11 +50,26 @@ This endpoint processes e-SIM purchase requests and returns activation informati
 {
     "status": true,
     "state": "Success",
-    "message": "e-SIM purchase successful",
-    "activation_code": "ABC123DEF",
-    "id": 12345,
+    "detail": "Transaction Completed.",
+    "message": "Transaction Completed",
     "credits_consumed": 90.0,
-    "credits_available": 999999.0
+    "credits_available": 99985279214.4199,
+    "extra_data": {
+        "name": "Shrestha Shrestha",
+        "dob": "2000-01-01",
+        "address": "Panipokhari",
+        "email": "ram.bahadur@gmail.com",
+        "father": "Hari Bahadur Shrestha",
+        "grandfather": "Man Bahadur Shrestha",
+        "mother": "Sita Devi Shrestha",
+        "document_number": "12345678",
+        "issue": "2088-05-15",
+        "pp_photo1": "https://test.com/ntc/esim/2026-06-25/7e038ade8d63405bb7x1933e87adb1f2d/pp_photo1_20260625093944.png?AWSAccessKeyId=AKxIAS7HNYSJPMICKDGHW&Signature=IAhN54WmHVjMP%2FZ7yPK3P4mhQI8%3D&Expires=178238cxx0744",
+        "pp_photo2": "https://test.com/ntc/esim/2026-06-25/cb8122b253f0432b917998b069d86610/pp_photo2_20260625093944.png?AWSAccessKeyId=AKIAS7HNYSJPMICKDGHW&Signature=XhX1d5zUc6aVQaVelKkZj7jeUIU%3D&Expires=1782380745",
+        "pp_photo3": "https://test.com/ntc/esim/2026-06-25/f0b49f79773744b1938248734c01e5f8/pp_photo3_20260625093945.png?AWSAccessKeyId=AKIAS7HNYSJPMICKDGHW&Signature=YkpJgPrDABSixS0Uzr9ziSNl7tI%3D&Expires=1782380745",
+        "t_n_c": true
+    },
+    "id": 237292
 }
 </code></pre>
 
